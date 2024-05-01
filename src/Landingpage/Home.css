@@ -119,31 +119,7 @@
     font-family: Inter;
   }
   
-  /*-------------------------------------
-    5. Fonts CSS
-  --------------------------------------*/
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 700;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterExtraBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 800;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterRegular.ttf"); */
-    font-family: "Inter";
-    font-weight: 400;
-  }
-
+ 
 
   /* 3. Common CSS */
   --------------------------------------*/
@@ -315,27 +291,7 @@
   /*-------------------------------------
     6. Fonts CSS
   --------------------------------------*/
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 700;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterExtraBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 800;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterRegular.ttf"); */
-    font-family: "Inter";
-    font-weight: 400;
-  }
+ 
   .rowdynamictext {
     height: 351px;
     margin-top: 116px;
@@ -447,27 +403,7 @@
   /*-------------------------------------
     5. Fonts CSS
   --------------------------------------*/
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 700;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterExtraBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 800;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterRegular.ttf"); */
-    font-family: "Inter";
-    font-weight: 400;
-}
+ 
 
 
 .flex-col-center-center {
@@ -668,24 +604,4 @@
   /*-------------------------------------
     7. Fonts CSS
   --------------------------------------*/
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 700;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterExtraBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 800;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterRegular.ttf"); */
-    font-family: "Inter";
-    font-weight: 400;
-  }
+ 

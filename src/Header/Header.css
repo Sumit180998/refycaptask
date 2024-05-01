@@ -230,25 +230,5 @@
   /*-------------------------------------
     6. Fonts CSS
   --------------------------------------*/
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 700;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterExtraBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 800;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterRegular.ttf"); */
-    font-family: "Inter";
-    font-weight: 400;
-  }
+
   

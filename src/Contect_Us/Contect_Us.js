@@ -5,7 +5,7 @@ import Footer from '../Footer/Footer'
 import img_rectangle_3_3 from '../Image/img_rectangle_3_3.png'
 
 
-export default function Contect_Us() {
+export default function ContectUs() {
   return (
     <div>
         <Header/>
@@ -48,7 +48,7 @@ export default function Contect_Us() {
           allowFullScreen=""
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          className="contact-section__map"
+          className="contact-section__map" title='g'
         ></iframe>
       </div>
     </div>

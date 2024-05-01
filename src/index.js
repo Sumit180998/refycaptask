@@ -1,21 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-
 import'@fortawesome/fontawesome-free/css/all.min.css';
 import reportWebVitals from './reportWebVitals';
 
+import NavRouter from './Nav_Router';
 
-import Nav_Router from './Nav_Router';
 
-import Footer from './Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
-    <Nav_Router/>
+    <NavRouter/>
    
   </React.StrictMode>
 );
