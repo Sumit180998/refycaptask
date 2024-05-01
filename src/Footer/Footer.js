@@ -21,8 +21,8 @@ export default function Footer() {
         <div class="content__section__info__branding">
           <div class="content__section__info__about__list">
             <h2 class="content__section__info__ads__title ui heading size-xs">About us</h2>
-            <a  onClick={()=>Navigate("./Career")} target="_blank" rel="noreferrer" class="content__section__info__ads__title">
-              <p class="ui text size-xs">Career</p>
+            <a   target="_blank" rel="noreferrer" class="content__section__info__ads__title">
+              <p class="ui text size-xs" onClick={()=>Navigate("/career")}>Career</p>
             </a>
             
             <a href="#" class="content__section__info__ads__title">

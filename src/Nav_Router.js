@@ -12,7 +12,7 @@ export default function NavRouter() {
         <Routes>
             <Route path='/home' element={<Home/>} />
             <Route path='/About' element={<About/>} />
-            <Route path='/Career' element={<Career/>} />
+            <Route path='/career' element={<Career/>} />
             <Route path='/contect_us' element={<ContectUs/>} />
             <Route path='/cart' element={<Cart/>} />
             <Route path='/' element={<Navigate to ='/home'/>} />
