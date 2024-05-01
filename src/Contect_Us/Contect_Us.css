@@ -184,6 +184,7 @@
     margin-top: 7px;
     border-color: #d4d4d4 !important;
     align-self: stretch;
+    border: 2px solid;
   }
   
   .contact-form__actions {
