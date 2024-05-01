@@ -46,10 +46,7 @@
     text-align: center;
   }
   
-  /*-------------------------------------
-    4. Component CSS
-  --------------------------------------*/
-  /*------Button CSS------*/
+ 
   .ui.button.round {
     border-radius: 4px;
   }
@@ -83,7 +80,7 @@
     border: 2px solid #ffffff;
   }
   
-  /*------Heading CSS------*/
+ 
   .ui.heading.size-3xl {
     font-size: 48px;
     font-weight: 800;
@@ -113,9 +110,7 @@
     object-fit: cover;
   }
   
-  /*-------------------------------------
-    4. Page CSS
-  --------------------------------------*/
+ 
   .cart {
     margin-top: 95px;
     background-color:#d9d9d9;
@@ -243,10 +238,7 @@
     }
   }
   
-  /*-------------------------------------
-    5. Component CSS
-  --------------------------------------*/
-  /*------Button CSS------*/
+
   .ui.button.size-sm {
     height: 50px;
     padding-left: 35px;
@@ -273,7 +265,7 @@
     border: 2px solid #1288bb;
   }
   
-  /*------Text CSS------*/
+
   .ui.text.size-lg {
     font-size: 36px;
     font-weight: 400;
@@ -299,7 +291,7 @@
     font-family: Inter;
   }
   
-  /*------Heading CSS------*/
+
   .ui.heading.size-2xl {
     font-size: 40px;
     font-weight: 800;
@@ -349,10 +341,7 @@
   }
 }
 
-/*-------------------------------------
-  4. Component CSS
---------------------------------------*/
-/*------Button CSS------*/
+
 .ui.button.round {
   border-radius: 35px;
 }

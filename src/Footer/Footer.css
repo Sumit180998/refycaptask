@@ -1,8 +1,4 @@
 
-  
-  /*-------------------------------------
-    3. Common CSS
-  --------------------------------------*/
   .content__section__info__branding__title {
     align-self: end;
   }
@@ -10,10 +6,7 @@
   .content__section__info__ads__title {
     align-self: start;
   }
-  
-  /*-------------------------------------
-    4. Page CSS
-  --------------------------------------*/
+
   .content__section__details {
     width: 100%;
     display: flex;
@@ -71,15 +64,13 @@
     @media only screen and (max-width: 550px) {
       flex-direction: column;
     }
-    /* flex-wrap: wrap; */
-    /* */
+   
   }
   
   .content__section__info__branding {
     width: 90%;
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+   
     gap: 20px;
     @media only screen and (max-width: 1050px) {
       width: 100%;
@@ -169,10 +160,7 @@
     }
   }
   
-  /*-------------------------------------
-    5. Component CSS
-  --------------------------------------*/
-  /*------Text CSS------*/
+ 
   .ui.text.size-xs {
     font-size: 16px;
     font-weight: 400;
@@ -183,7 +171,7 @@
     font-family: Inter;
   }
   
-  /*------Heading CSS------*/
+
   .ui.heading.size-xs {
     font-size: 16px;
     font-weight: 700;
@@ -202,31 +190,6 @@
     font-family: Inter;
   }
   
-  /*-------------------------------------
-    6. Fonts CSS
-  --------------------------------------*/
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 700;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterExtraBold.ttf"); */
-    font-family: "Inter";
-    font-weight: 800;
-  }
-  @font-face {
-    font-display: swap;
-    font-style: normal;
-    /* src: url("./public/fonts/InterRegular.ttf"); */
-    font-family: "Inter";
-    font-weight: 400;
-  }
-
    a{
     text-decoration: none !important;
    

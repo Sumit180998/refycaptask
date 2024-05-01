@@ -98,10 +98,7 @@
     margin: auto;
   }
   
-  /*-------------------------------------
-    4. Component CSS
-  --------------------------------------*/
-  /*------Heading CSS------*/
+
   .ui.heading.size-s {
     font-size: 40px;
     font-weight: 700;
@@ -121,8 +118,7 @@
   
  
 
-  /* 3. Common CSS */
-  --------------------------------------*/
+
   .landing-page__stacktext {
     height: 258px;
     width: 100%;
@@ -187,9 +183,7 @@
     }
   }
   
-  /*-------------------------------------
-    4. Page CSS
-  --------------------------------------*/
+
   .landing-page__grid {
     width: 100%;
     display: grid;
@@ -234,10 +228,7 @@
     width: 77%;
   }
   
-  /*-------------------------------------
-    5. Component CSS
-  --------------------------------------*/
-  /*------Button CSS------*/
+ 
   .ui.button.round {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -274,7 +265,7 @@
     background-color: #03030384 !important;
   }
   
-  /*------Text CSS------*/
+
   .ui.text.size-s {
     font-size: 24px;
     font-weight: 400;
@@ -288,9 +279,7 @@
     font-family: Inter;
   }
   
-  /*-------------------------------------
-    6. Fonts CSS
-  --------------------------------------*/
+
  
   .rowdynamictext {
     height: 351px;
@@ -379,10 +368,7 @@
     width: 89%;
   }
   
-  /*-------------------------------------
-    4. Component CSS
-  --------------------------------------*/
-  /*------Heading CSS------*/
+
   .ui.heading.size-s {
     font-size: 40px;
     font-weight: 700;
@@ -400,12 +386,6 @@
     font-family: Inter;
   }
   
-  /*-------------------------------------
-    5. Fonts CSS
-  --------------------------------------*/
- 
-
-
 .flex-col-center-center {
     display: flex;
     flex-direction: column;
@@ -413,9 +393,7 @@
     justify-content: center;
   }
   
-  /*-------------------------------------
-    4. Common CSS
-  --------------------------------------*/
+ 
   .clientele-section__logo-item {
     background-color: #d9d9d9;
     padding: 47px;
@@ -433,10 +411,7 @@
     margin-bottom: 32px;
     text-align: center;
   }
-  
-  /*-------------------------------------
-    5. Page CSS
-  --------------------------------------*/
+
   .row_one {
     padding-top: 54px;
     padding-bottom: 54px;
@@ -572,10 +547,7 @@
     }
   }
   
-  /*-------------------------------------
-    6. Component CSS
-  --------------------------------------*/
-  /*------Heading CSS------*/
+
   .ui.heading.size-xl {
     font-size: 96px;
     font-weight: 700;
@@ -601,7 +573,5 @@
     font-family: Inter;
   }
   
-  /*-------------------------------------
-    7. Fonts CSS
-  --------------------------------------*/
+
  
