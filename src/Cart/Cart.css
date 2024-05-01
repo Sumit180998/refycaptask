@@ -1,0 +1,385 @@
+
+.group-43 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rectangle-3 {
+    height: 467px;
+    object-fit: cover;
+    width: 100%;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .cart__line {
+    height: 1px;
+    background-color: #cccccc;
+    width: 73%;
+  }
+.cart__summary {
+    padding-left: 540px;
+    gap: 111px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    max-width: 1362px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    @media only screen and (max-width: 1050px) {
+      gap: 83px;
+      padding-left: 20px;
+      padding: 20px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 55px;
+    }
+  }
+  
+  .cart__title {
+    text-align: center;
+  }
+  
+  /*-------------------------------------
+    4. Component CSS
+  --------------------------------------*/
+  /*------Button CSS------*/
+  .ui.button.round {
+    border-radius: 4px;
+  }
+  
+  .ui.button.size-xl {
+    height: 75px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 24px;
+  }
+  
+  .ui.button.fill.light_blue_800 {
+    background-color: #1288bb;
+    color: #ffffff;
+  }
+  
+  .ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    align-self: end;
+    background-color: #1288bb;
+    min-width: 350px;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+  }
+  
+  /*------Heading CSS------*/
+  .ui.heading.size-3xl {
+    font-size: 48px;
+    font-weight: 800;
+    @media only screen and (max-width: 1050px) {
+      font-size: 44px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 38px;
+    }
+  }
+  
+  .ui.heading {
+    color: #1372a7;
+    font-family: Inter;
+  }
+
+  .cart__pricing__option {
+    gap:11px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart__pricing__option__image {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+  }
+  
+  /*-------------------------------------
+    4. Page CSS
+  --------------------------------------*/
+  .cart {
+    margin-top: 95px;
+    background-color:#d9d9d9;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1362px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius:20px;
+    @media only screen and (max-width: 1050px) {
+      padding: 20px;
+    }
+  }
+  
+  .cart__content {
+    margin-top: 5px;
+    width: 97%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  
+  .cart__content__background {
+    height: 29px;
+    margin-top: 32px;
+    background-color: #ffffff;
+    width: 29px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+  }
+  
+  .cart__pricing {
+    margin-left: 27px;
+    background-color: #f5f5f5;
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 48px;
+    border-radius: 20px;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      margin-left: 0px;
+      padding: 20px;
+    }
+  }
+  
+  .cart__pricing__title {
+    margin-top: 9px;
+  }
+  
+  .cart__pricing__package {
+    margin-top: 8px;
+  }
+  
+  .cart__pricing__details {
+    margin-top: 42px;
+    margin-bottom: 175px;
+    display: flex;
+  }
+  
+  .cart__pricing__options {
+    gap: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .cart__pricing__option__team-size {
+    align-self: start;
+  }
+  
+  .cart__features {
+    margin-top: 7px;
+    margin-left: 51px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      align-self: stretch;
+      margin-left: 0px;
+    }
+  }
+  
+  .cart__features__title {
+    color: #1372a7 !important;
+    margin-left: 10px;
+    @media only screen and (max-width: 1050px) {
+      margin-left: 0px;
+    }
+  }
+  
+  .cart__features__description {
+    margin-top: 36px;
+    width: 100%;
+  }
+  
+  .cart__features__actions {
+    margin-top: 107px;
+    gap: 18px;
+    align-self: end;
+    display: flex;
+  }
+  
+  .cart__features__action--save {
+    min-width: 238px;
+    @media only screen and (max-width: 550px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .cart__features__action--delete {
+    min-width: 171px;
+    @media only screen and (max-width: 550px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  /*-------------------------------------
+    5. Component CSS
+  --------------------------------------*/
+  /*------Button CSS------*/
+  .ui.button.size-sm {
+    height: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 24px;
+  }
+  
+  .ui.button.outline.light_blue_800 {
+    color: #1288bb;
+    border: 2px solid #1288bb;
+  }
+  
+  .ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #1288bb;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 2px solid #1288bb;
+  }
+  
+  /*------Text CSS------*/
+  .ui.text.size-lg {
+    font-size: 36px;
+    font-weight: 400;
+    @media only screen and (max-width: 1050px) {
+      font-size: 34px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 32px;
+    }
+  }
+  
+  .ui.text.size-s {
+    font-size: 24px;
+    font-weight: 400;
+    @media only screen and (max-width: 1050px) {
+      font-size: 22px;
+    }
+  }
+  
+  .ui.text {
+    color: #000000;
+    font-family: Inter;
+  }
+  
+  /*------Heading CSS------*/
+  .ui.heading.size-2xl {
+    font-size: 40px;
+    font-weight: 800;
+    @media only screen and (max-width: 1050px) {
+      font-size: 38px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 36px;
+    }
+  }
+  
+ .cart__pricing__option .ui.heading.size-lg {
+    font-size: 24px !important;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 22px;
+    }
+  }
+  
+  .ui.heading {
+    color: #000000;
+    font-family: Inter;
+  }
+  
+
+  
+.cart__column {
+  padding-left: 1011px;
+  width: 100%;
+  max-width: 1362px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  @media only screen and (max-width: 1050px) {
+    padding-left: 20px;
+    padding: 20px;
+  }
+}
+
+.cart__button {
+  width: 100%;
+  @media only screen and (max-width: 550px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/*-------------------------------------
+  4. Component CSS
+--------------------------------------*/
+/*------Button CSS------*/
+.ui.button.round {
+  border-radius: 35px;
+}
+
+.ui.button.size-xl {
+  height: 75px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 24px;
+}
+
+.ui.button.fill.light_blue_800 {
+  background-color: #1288bb;
+  color: #ffffff;
+}
+
+.ui.button {
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #1288bb;
+  border-radius: 35px;
+  border: 2px solid #ffffff;
+}

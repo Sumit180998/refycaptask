@@ -1,0 +1,182 @@
+.group-18 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rectangle-3 {
+    height: 467px;
+    object-fit: cover;
+    width: 100%;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .about-us__line {
+    height: 1px;
+    background-color: #cccccc;
+    width: 73%;
+  }
+  /* 3. Common CSS */
+  --------------------------------------*/
+  .about-us{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    background-color: red;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .about-us__image {
+    height: 404px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .about-us__content {
+    background-color: #0000004c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    top: 0px;
+    height: max-content;
+    padding: 118px 56px;
+    margin: auto;
+    border-radius: 20px;
+    @media only screen and (max-width: 1050px) {
+      padding: 20px;
+    }
+  }
+  
+  .about-us__content-title {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    text-align: center;
+    font-weight: 700 !important;
+    width: 60%;
+  }
+  
+  /*-------------------------------------
+    4. Page CSS
+  --------------------------------------*/
+  .section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1362px;
+    margin-left: auto;
+    margin-right: auto;
+    @media only screen and (max-width: 1050px) {
+      padding: 20px;
+    }
+  }
+  
+  .section__title {
+    color: #1372a7 !important;
+    text-align: center;
+    margin-top: 50px
+  }
+  
+  .section__description {
+    color: #000000 !important;
+    margin-top: 35px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .section__list {
+    margin-top: 20px;
+    gap: 37px;
+    display: flex;
+    align-self: stretch;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+    }
+  }
+  
+  .section__additional-info {
+    color: #000000 !important;
+    margin-top: 100px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+  
+  /*-------------------------------------
+    5. Component CSS
+  --------------------------------------*/
+  /*------Heading CSS------*/
+  .ui.heading.size-3xl {
+    font-size: 48px;
+    font-weight: 800;
+    @media only screen and (max-width: 1050px) {
+      font-size: 44px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 38px;
+    }
+  }
+  
+  .ui.heading.size-2xl {
+    font-size: 40px;
+    font-weight: 800;
+    @media only screen and (max-width: 1050px) {
+      font-size: 38px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 36px;
+    }
+  }
+  
+  .ui.heading.size-lg {
+    font-size: 24px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 22px;
+    }
+  }
+  
+  .ui.heading {
+    color: #ffffff;
+    font-family: Inter;
+  }
+  
+  /*-------------------------------------
+    6. Fonts CSS
+  --------------------------------------*/
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterExtraBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterRegular.ttf"); */
+    font-family: "Inter";
+    font-weight: 400;
+  }
+  

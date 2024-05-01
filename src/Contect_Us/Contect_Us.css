@@ -1,0 +1,438 @@
+/*-------------------------------------
+  3. Page CSS
+--------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.group-38 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .rectangle-3 {
+    height: 467px;
+    object-fit: cover;
+    width: 100%;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .contact-us__line {
+    height: 1px;
+    background-color: #cccccc;
+    width: 73%;
+  }
+
+
+  .contact-form__field--services {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .contact-form__heading {
+    margin-left: 5px;
+    @media only screen and (max-width: 1050px) {
+      margin-left: 0px;
+    }
+  }
+  
+  /*-------------------------------------
+    4. Page CSS
+  --------------------------------------*/
+  .contact-form {
+    background-color: #f6f6f6cc;
+    box-shadow: 0px 0px 12px 1px #0000003f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1362px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 74px 56px;
+    border-radius: 15px;
+    border: 1px solid #fafafa;
+    @media only screen and (max-width: 1050px) {
+      padding: 20px;
+    }
+  }
+  
+  .contact-form__content {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .contact-form__fields {
+    align-self: stretch;
+  }
+  
+  .contact-form__fields-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+    }
+  }
+  
+  .contact-form__field-set {
+    gap: 67px;
+    display: flex;
+    width: 46%;
+    flex-direction: column;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 33px;
+    }
+  }
+  
+  .contact-form__field-set--personal {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .contact-form__field {
+    gap: 9px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .contact-form__label--phone {
+    margin-top: 65px;
+    margin-left: 5px;
+    @media only screen and (max-width: 1050px) {
+      margin-left: 0px;
+    }
+  }
+  
+  .contact-form__input--phone {
+    margin-top: 8px;
+  }
+  
+  .contact-form__field--email {
+    margin-top: 63px;
+    gap: 10px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .contact-form__fields-group--secondary {
+    gap: 63px;
+    display: flex;
+    width: 46%;
+    flex-direction: column;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 31px;
+    }
+  }
+  
+  .contact-form__field-set--company {
+    gap: 63px;
+    display: flex;
+    flex-direction: column;
+    @media only screen and (max-width: 550px) {
+      gap: 31px;
+    }
+  }
+  
+  .contact-form__field--company {
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .contact-form__textarea {
+    margin-top: 7px;
+    border-color: #d4d4d4 !important;
+    align-self: stretch;
+  }
+  
+  .contact-form__actions {
+    margin-top: 49px;
+    /* width: 30%; */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .contact-form__button--cancel {
+    min-width: 171px;
+    @media only screen and (max-width: 550px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .contact-form__button--send {
+    border-color: #ffffff;
+    min-width: 157px;
+    @media only screen and (max-width: 550px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  /*-------------------------------------
+    5. Component CSS
+  --------------------------------------*/
+  /*------Button CSS------*/
+  .ui.button.round {
+    border-radius: 35px;
+  }
+  
+  .ui.button.size-lg {
+    height: 71px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 24px;
+  }
+  
+  .ui.button.outline.light_blue_800 {
+    color: #1288bb;
+    border: 2px solid #1288bb;
+  }
+  
+  .ui.button.fill.light_blue_800 {
+    background-color: #1288bb;
+    color: #ffffff;
+  }
+  
+  .ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 700;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 35px;
+  }
+  
+  /*------Input CSS------*/
+  .ui.input.round {
+    border-radius: 10px;
+  }
+  
+  .ui.input.size-xs {
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .ui.input.fill.white_a700 {
+    background-color: #ffffff;
+  }
+  
+  .ui.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+    background-color: #ffffff;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #d4d4d4;
+  }
+  
+  /*------Textarea CSS------*/
+  .ui.textarea.round {
+    border-radius: 10px;
+  }
+  
+  .ui.textarea.size-xs {
+    height: 218px;
+    padding: 20px;
+  }
+  
+  .ui.textarea.taroutlinebluegray10002.white_a700 {
+    background-color: #ffffff;
+    border: 1px solid #d4d4d4 !important;
+  }
+  
+  /*------Heading CSS------*/
+  .ui.heading.size-md {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .ui.heading {
+    color: #000000;
+    font-family: Inter;
+  }
+
+  .contact-section__address-details {
+    width: 100%;
+  }
+  
+  .contact-section__title {
+    font-weight: 800 !important;
+  }
+  
+  /*-------------------------------------
+    4. Page CSS
+  --------------------------------------*/
+  .contact-section {
+    padding-right: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1362px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    @media only screen and (max-width: 1050px) {
+      padding: 20px;
+    }
+  }
+  
+  .contact-section__info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+    }
+  }
+  
+  .contact-section__address {
+    gap: 59px;
+    display: flex;
+    width: 39%;
+    flex-direction: column;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 29px;
+    }
+  }
+  
+  .contact-section__address-column {
+    gap: 17px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .contact-section__address-column-1 {
+    gap: 16px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .contact-section__location {
+    gap: 28px;
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .contact-section__map {
+    height: 493px;
+    align-self: stretch;
+    border-width: 0px;
+  }
+  
+  /*-------------------------------------
+    5. Component CSS
+  --------------------------------------*/
+  /*------Text CSS------*/
+  .ui.text.size-s {
+    font-size: 24px;
+    font-weight: 400;
+    @media only screen and (max-width: 1050px) {
+      font-size: 22px;
+    }
+  }
+  
+  .ui.text {
+    color: var(--black_900_01);
+    font-family: Inter;
+  }
+  
+  /*------Heading CSS------*/
+  .ui.heading.size-xl {
+    font-size: 32px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 30px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 28px;
+    }
+  }
+  
+  .ui.heading.size-lg {
+    font-size: 24px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 22px;
+    }
+  }
+  
+  .ui.heading {
+    color:  #000000;
+    font-family: Inter;
+  }
+  
+  
+  
+  

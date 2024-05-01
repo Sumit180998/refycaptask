@@ -2,12 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import '../node_modules/bootstrap/dist/js/bootstrap.min';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import'@fortawesome/fontawesome-free/css/all.min.css';
 import reportWebVitals from './reportWebVitals';
+
+
+import Nav_Router from './Nav_Router';
+
+import Footer from './Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   
+    <Nav_Router/>
+   
   </React.StrictMode>
 );
 

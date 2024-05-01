@@ -1,0 +1,254 @@
+:root {
+    /*------Color variables------*/
+    --light_blue_800: #1288bb;
+    --black_900: #000000;
+    --white_A700: #ffffff;
+    --amber_700: #ff9e0e;
+  
+    /*------Border radius variables------*/
+    --radius-xs: 16px;
+  }
+  
+  /*-------------------------------------
+    3. Common CSS
+  --------------------------------------*/
+  .header__socials__instagram {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+  }
+  
+  /*-------------------------------------
+    4. Page CSS
+  --------------------------------------*/
+  .header {
+    gap: 9px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .header__top-row {
+    gap: 266px;
+    align-self: stretch;
+    background-color: var(--light_blue_800);
+    display: flex;
+    justify-content: flex-end;
+    padding: 13px;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
+  .header__socials {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .header__actions {
+    margin-right: 258px;
+    width: 24%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      margin-right: 0px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  
+  .header__user {
+    gap: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__user__signin {
+    color: var(--white_A700) !important;
+    align-self: end;
+  }
+  
+  .header__actions__join {
+    margin-left: 41px;
+    width: 100%;
+    @media only screen and (max-width: 550px) {
+      align-self: stretch;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-left: 0px;
+    }
+  }
+  
+  .header__actions__cart-icon {
+    height: 32px;
+    margin-left: 41px;
+    width: 32px;
+    object-fit: cover;
+    @media only screen and (max-width: 550px) {
+      width: 100%;
+      margin-left: 0px;
+    }
+  }
+  
+  .header__actions__cart-text {
+    color: var(--white_A700) !important;
+  }
+  
+  .header__main-row {
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  
+  .header__brand {
+    margin-bottom: 17px;
+  }
+  
+  .header__brand-span {
+    color: #494949;
+  }
+  
+  .header__brand-span-1 {
+    color: #1371a6;
+  }
+  
+  .header__brand-span-2 {
+    color: var(--amber_700);
+  }
+  
+  .header__navigation {
+    gap: 35px;
+    display: flex;
+    align-items: start;
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  
+  .header__navigation__item {
+    gap: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header__navigation__item__home-indicator {
+    height: 8px;
+    background-color: var(--amber_700);
+    width: 88px;
+  }
+
+  .ui.heading.size-md {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.ui.heading {
+    color: #000000;
+    font-family: Inter;
+}
+.landing-page__description {
+    color: #1372a7 !important;
+    margin-top: 57px;
+    text-align: center;}
+  
+  /*-------------------------------------
+    5. Component CSS
+  --------------------------------------*/
+  /*------Button CSS------*/
+
+  .landing-page__grid{
+    margin-top: 78px;
+    display: grid;
+    gap: 43px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-content: center;
+  }
+  .ui.button.size-xs {
+    height: 32px;
+    padding-left: 25px;
+    padding-right: 30px;
+    font-size: 16px;
+  }
+  
+  .ui.button.fill.light_blue_800 {
+    background-color: var(--light_blue_800);
+    color: var(--white_A700);
+  }
+  
+  .ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--white_A700);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--light_blue_800);
+    flex: 1;
+    border-radius: var(--radius-xs);
+    border: 2px solid var(--white_A700);
+  }
+  
+  /*------Heading CSS------*/
+  .ui.heading.size-xs {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .ui.heading.size-lg {
+    font-size: 64px !important;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 48px;
+    }
+  }
+  
+  .ui.heading {
+    color: var(--black_900);
+    font-family: Inter;
+  }
+  
+  /*-------------------------------------
+    6. Fonts CSS
+  --------------------------------------*/
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterExtraBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterRegular.ttf"); */
+    font-family: "Inter";
+    font-weight: 400;
+  }
+  

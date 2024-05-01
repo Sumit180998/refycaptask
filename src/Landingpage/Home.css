@@ -1,0 +1,691 @@
+
+.stacklinetwo {
+    height: 475px;
+    width: 100%;
+    position: relative;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .columnlinetwo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    height: 467px;
+    object-fit: cover;
+    width: 100%;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .landing-page__line {
+    height: 1px;
+    background-color: var(--blue_gray_100);
+    width: 73%;
+  }
+  
+  .column {
+    height: 288px;
+    background-image: url(../Image/img_group_11.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    left: 26%;
+    top: 2px;
+    padding: 53px;
+    margin: auto;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+      padding: 20px;
+    }
+  }
+  
+  .column__title {
+    color: var(--light_blue_800_66) !important;
+    margin-top: 40px;
+    margin-bottom: 92px;
+  }
+  
+  .landing-page__polygon-image {
+    height: 281px;
+    width: 14%;
+    position: absolute;
+    bottom: -0.09px;
+    left: 23%;
+    margin: auto;
+  }
+  
+  .column-1 {
+    height: 290px;
+    background-image: url(../Image/img_group_10.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    left: 15%;
+    top: 8%;
+    justify-content: flex-end;
+    padding: 69px 69px 69px 56px;
+    margin: auto;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+      padding: 20px;
+    }
+  }
+  
+  .column__title-1 {
+    color: var(--gray_900_7f) !important;
+    margin-top: 47px;
+    margin-bottom: 55px;
+  }
+  
+  .landing-page__setup {
+    position: absolute;
+    bottom: 24%;
+    left: 26%;
+    margin: auto;
+  }
+  
+  /*-------------------------------------
+    4. Component CSS
+  --------------------------------------*/
+  /*------Heading CSS------*/
+  .ui.heading.size-s {
+    font-size: 40px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 38px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 36px;
+    }
+  }
+  
+  .ui.heading {
+    color: var(--lime_900_66);
+    font-family: Inter;
+  }
+  
+  /*-------------------------------------
+    5. Fonts CSS
+  --------------------------------------*/
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterExtraBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterRegular.ttf"); */
+    font-family: "Inter";
+    font-weight: 400;
+  }
+
+
+  /* 3. Common CSS */
+  --------------------------------------*/
+  .landing-page__stacktext {
+    height: 258px;
+    width: 100%;
+    position: relative;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .landing-page__stacktext__image {
+    height: 258px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .landing-page__stackhiring__button {
+    min-width: 303px;
+    position: absolute;
+    bottom: 1px;
+    right: 0px;
+    left: 0px;
+    margin: auto;
+    @media only screen and (max-width: 550px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+  }
+  
+  .rowsetup_office {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .columnbuilding {
+    width: 100%;
+  }
+  
+  .image-2 {
+    height: 258px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 15px;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+    }
+  }
+  
+  .third {
+    margin-top: -94px;
+    position: relative;
+    width: 100%;
+    @media only screen and (max-width: 550px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  /*-------------------------------------
+    4. Page CSS
+  --------------------------------------*/
+  .landing-page__grid {
+    width: 100%;
+    display: grid;
+    gap: 43px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-content: center;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    @media only screen and (max-width: 1050px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      padding: 20px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  
+  .landing-page__stacktext__text {
+    position: absolute;
+    bottom: 1px;
+    right: 0px;
+    left: 0px;
+    width: max-content;
+    margin: auto;
+  }
+  
+  .rowbuilding {
+    margin-top: -94px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    background-color: #03030399;
+    display: flex;
+    justify-content: center;
+    padding: 17px;
+  }
+  
+  .building {
+    text-align: center;
+    width: 77%;
+  }
+  
+  /*-------------------------------------
+    5. Component CSS
+  --------------------------------------*/
+  /*------Button CSS------*/
+  .ui.button.round {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .uibutton.size-sm {
+    height: 94px;
+    padding-left: 47px;
+    padding-right: 47px;
+    font-size: 24px;
+  }
+  
+  .ui.button.fill.black_900_99 {
+    background-color: #030303 !important;
+    color: #ffffff;
+  }
+  
+  .ui.button.fill.black_900_99_01 {
+    
+    color: #ffffff;
+  }
+  
+  .uibutton  {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 24px;
+    background-color: #03030384 !important;
+  }
+  
+  /*------Text CSS------*/
+  .ui.text.size-s {
+    font-size: 24px;
+    font-weight: 400;
+    @media only screen and (max-width: 1050px) {
+      font-size: 22px;
+    }
+  }
+  
+  .ui.text {
+    color: #ffffff;
+    font-family: Inter;
+  }
+  
+  /*-------------------------------------
+    6. Fonts CSS
+  --------------------------------------*/
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterExtraBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterRegular.ttf"); */
+    font-family: "Inter";
+    font-weight: 400;
+  }
+  .rowdynamictext {
+    height: 351px;
+    margin-top: 116px;
+    padding-top: 87px;
+    padding-bottom: 87px;
+    background-image: url(../Image/img_group_9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      height: auto;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .list {
+    margin-bottom: 12px;
+    gap: var(--space-sm);
+    display: flex;
+    width: 100%;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+      padding: 20px;
+    }
+  }
+  
+  .list__item {
+    background-color: var(--black_900_66);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:47px;
+    @media only screen and (max-width: 550px) {
+      padding: 20px;
+    }
+  }
+  
+  .list__item__text {
+    text-align: center;
+    align-self: start;
+    width: 81%;
+  }
+  
+  .list__item--execution {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 22px;
+    background-color: var(--black_900_66);
+    width: 100%;
+    display: flex;
+    @media only screen and (max-width: 550px) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .list__item--execution__text {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .rowstreamlining {
+    background-color: var(--black_900_66);
+    width: 100%;
+    display: flex;
+    padding: 47px;
+    @media only screen and (max-width: 550px) {
+      padding: 20px;
+    }
+  }
+  
+  .streamlining {
+    text-align: center;
+    align-self: start;
+    width: 89%;
+  }
+  
+  /*-------------------------------------
+    4. Component CSS
+  --------------------------------------*/
+  /*------Heading CSS------*/
+  .ui.heading.size-s {
+    font-size: 40px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 38px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 36px;
+    }
+  }
+  
+  .ui.heading {
+    color: #ffffff;
+    font-family: Inter;
+  }
+  
+  /*-------------------------------------
+    5. Fonts CSS
+  --------------------------------------*/
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterExtraBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterRegular.ttf"); */
+    font-family: "Inter";
+    font-weight: 400;
+}
+
+
+.flex-col-center-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*-------------------------------------
+    4. Common CSS
+  --------------------------------------*/
+  .clientele-section__logo-item {
+    background-color: #d9d9d9;
+    padding: 47px;
+    border-radius: 100px;
+    margin: 20px;
+    @media only screen and (max-width: 1050px) {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: 20px;
+    }
+  }
+  
+  .clientele-section__logo {
+    margin-top: 33px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  /*-------------------------------------
+    5. Page CSS
+  --------------------------------------*/
+  .row_one {
+    padding-top: 54px;
+    padding-bottom: 54px;
+    background-color: var(--gray_100);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
+  
+  .clientele-section {
+    margin-top: 21px;
+    padding-left: 28px;
+    padding-right: 28px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+    @media only screen and (max-width: 1050px) {
+      padding: 20px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  
+  .clientele-section__column {
+    gap: 147px;
+    display: flex;
+    width: 97%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      gap: 110px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 73px;
+    }
+  }
+  
+  .clientele-section__column--text {
+    gap: 3px;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .clientele-section__title {
+    color: var(--blue_800_01) !important;
+    text-align: center;
+    font-weight: 800 !important;
+  }
+  
+  .clientele-section__quote {
+    gap: 8px;
+    align-self: stretch;
+    display: flex;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+    }
+  }
+  
+  .clientele-section__quote-mark {
+    color: var(--gray_500) !important;
+  }
+  
+  .clientele-section__quote-text {
+    margin-top: 75px;
+    width: 97%;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .clientele-section__logos {
+    gap: 83px;
+    display: flex;
+    width: 93%;
+    flex-direction: column;
+    align-items: center;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      gap: 62px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      gap: 41px;
+    }
+  }
+  
+  .clientele-section__slider {
+    max-width: 100%;
+    gap: 29px;
+    align-self: start;
+    display: flex;
+    flex-direction: row;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+    }
+  }
+  .swiper-wrapper{
+    display: flex;
+  }
+  
+  .clientele-section__pager-indicator {
+    width: 147px;
+    display: flex;
+    justify-content: center;
+    height: 11px;
+    & > .swiper-pagination-bullet {
+      height: 11px;
+      background-color: #d9d9d9;
+      width: 11px;
+      margin-right: 6px;
+    }
+  
+    & > .swiper-pagination-bullet-active {
+      height: 11px;
+      background-color: #686464;
+      width: 11px;
+      margin-right: 6px;
+    }
+  }
+  
+  /*-------------------------------------
+    6. Component CSS
+  --------------------------------------*/
+  /*------Heading CSS------*/
+  .ui.heading.size-xl {
+    font-size: 96px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 48px;
+    }
+  }
+  
+  .ui.heading.size-s {
+    font-size: 40px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 38px;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      font-size: 36px;
+    }
+  }
+  
+  .ui.heading {
+    color: var(--black_900);
+    font-family: Inter;
+  }
+  
+  /*-------------------------------------
+    7. Fonts CSS
+  --------------------------------------*/
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterExtraBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterRegular.ttf"); */
+    font-family: "Inter";
+    font-weight: 400;
+  }

@@ -1,0 +1,236 @@
+
+  
+  /*-------------------------------------
+    3. Common CSS
+  --------------------------------------*/
+  .content__section__info__branding__title {
+    align-self: end;
+  }
+  
+  .content__section__info__ads__title {
+    align-self: start;
+  }
+  
+  /*-------------------------------------
+    4. Page CSS
+  --------------------------------------*/
+  .content__section__details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      flex-direction: column;
+    }
+  }
+  
+  .content__section__details__address {
+    gap: 19px;
+    display: flex;
+    width: 16%;
+    flex-direction: column;
+    align-items: start;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+  .content__section__details__address__heading-span {
+    color: #494949;
+  }
+  
+  .content__section__details__address__heading-span-1 {
+    color: #1371a6;
+  }
+  
+  .content__section__details__address__heading-span-2 {
+    color: #ff9e0e;
+  }
+  
+  .content__section__details__address__description {
+    width: 100%;
+  }
+  
+  .content__section__info {
+    margin-top: 23px;
+    width: 74%;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
+  .content__section__info__about {
+    gap: 32px;
+    display: flex;
+    width: 100%;
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+    /* flex-wrap: wrap; */
+    /* */
+  }
+  
+  .content__section__info__branding {
+    width: 90%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  
+  .content__section__info__about__list {
+    width: 65%;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    @media only screen and (max-width: 550px) {
+      width: 100%;
+    }
+  }
+  
+  .content__section__info__ads {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+    }
+  }
+  
+  .content__section__info__ads__careers {
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    @media only screen and (max-width: 550px) {
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  
+  .content__section__info__ads__leadership {
+    align-self: end;
+    width: 61%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    @media only screen and (max-width: 550px) {
+      width: 100%;
+    }
+  }
+  
+  .content__section__info__contact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .content__section__info__policy {
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  .content__section__info__feedback {
+    width: 61%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    @media only screen and (max-width: 1050px) {
+      width: 100%;
+    }
+  }
+  
+  /*-------------------------------------
+    5. Component CSS
+  --------------------------------------*/
+  /*------Text CSS------*/
+  .ui.text.size-xs {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .ui.text {
+    color: #000000;
+    font-family: Inter;
+  }
+  
+  /*------Heading CSS------*/
+  .ui.heading.size-xs {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .ui.heading.size-lg {
+    font-size: 64px;
+    font-weight: 700;
+    @media only screen and (max-width: 1050px) {
+      font-size: 48px;
+    }
+  }
+  
+  .ui.heading {
+    color: #000000;
+    font-family: Inter;
+  }
+  
+  /*-------------------------------------
+    6. Fonts CSS
+  --------------------------------------*/
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 700;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterExtraBold.ttf"); */
+    font-family: "Inter";
+    font-weight: 800;
+  }
+  @font-face {
+    font-display: swap;
+    font-style: normal;
+    /* src: url("./public/fonts/InterRegular.ttf"); */
+    font-family: "Inter";
+    font-weight: 400;
+  }
+
+   a{
+    text-decoration: none !important;
+   
+  }
+ p{
+    color: #000000 !important;
+  }
