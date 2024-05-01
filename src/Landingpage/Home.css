@@ -26,7 +26,7 @@
   
   .landing-page__line {
     height: 1px;
-    background-color: var(--blue_gray_100);
+    background-color: rgb(77, 62, 62);
     width: 73%;
   }
   
@@ -50,7 +50,7 @@
   }
   
   .column__title {
-    color: var(--light_blue_800_66) !important;
+    color: blue !important;
     margin-top: 40px;
     margin-bottom: 92px;
   }
@@ -86,7 +86,7 @@
   }
   
   .column__title-1 {
-    color: var(--gray_900_7f) !important;
+    color: gray !important;
     margin-top: 47px;
     margin-bottom: 55px;
   }
@@ -115,7 +115,7 @@
   }
   
   .ui.heading {
-    color: var(--lime_900_66);
+    color: lime;
     font-family: Inter;
   }
   
@@ -313,7 +313,7 @@
   
   .list {
     margin-bottom: 12px;
-    gap: var(--space-sm);
+    gap: 20px;
     display: flex;
     width: 100%;
     max-width: 1340px;
@@ -326,7 +326,7 @@
   }
   
   .list__item {
-    background-color: var(--black_900_66);
+    background-color: rgba(0, 0, 0, 0.599);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -346,7 +346,7 @@
     padding-top: 22px;
     padding-bottom: 22px;
     padding-right: 22px;
-    background-color: var(--black_900_66);
+    background-color: black;
     width: 100%;
     display: flex;
     @media only screen and (max-width: 550px) {
@@ -364,7 +364,7 @@
   }
   
   .rowstreamlining {
-    background-color: var(--black_900_66);
+    background-color: rgba(0, 0, 0, 0.871);
     width: 100%;
     display: flex;
     padding: 47px;
@@ -440,7 +440,7 @@
   .row_one {
     padding-top: 54px;
     padding-bottom: 54px;
-    background-color: var(--gray_100);
+    background-color: gray;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -495,7 +495,7 @@
   }
   
   .clientele-section__title {
-    color: var(--blue_800_01) !important;
+    color: rgba(57, 57, 196, 0.851) !important;
     text-align: center;
     font-weight: 800 !important;
   }
@@ -511,7 +511,7 @@
   }
   
   .clientele-section__quote-mark {
-    color: var(--gray_500) !important;
+    color: gray !important;
   }
   
   .clientele-section__quote-text {
@@ -597,7 +597,7 @@
   }
   
   .ui.heading {
-    color: var(--black_900);
+    color: black;
     font-family: Inter;
   }
   

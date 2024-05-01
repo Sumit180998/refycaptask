@@ -1,14 +1,4 @@
-:root {
-    /*------Color variables------*/
-    --light_blue_800: #1288bb;
-    --black_900: #000000;
-    --white_A700: #ffffff;
-    --amber_700: #ff9e0e;
-  
-    /*------Border radius variables------*/
-    --radius-xs: 16px;
-  }
-  
+
   /*-------------------------------------
     3. Common CSS
   --------------------------------------*/
@@ -32,7 +22,7 @@
   .header__top-row {
     gap: 266px;
     align-self: stretch;
-    background-color: var(--light_blue_800);
+    background-color: #1288bb;
     display: flex;
     justify-content: flex-end;
     padding: 13px;
@@ -70,7 +60,7 @@
   }
   
   .header__user__signin {
-    color: var(--white_A700) !important;
+    color: #ffffff !important;
     align-self: end;
   }
   
@@ -97,7 +87,7 @@
   }
   
   .header__actions__cart-text {
-    color: var(--white_A700) !important;
+    color: #ffffff !important;
   }
   
   .header__main-row {
@@ -129,7 +119,7 @@
   }
   
   .header__brand-span-2 {
-    color: var(--amber_700);
+    color: #ff9e0e;
   }
   
   .header__navigation {
@@ -150,7 +140,7 @@
   
   .header__navigation__item__home-indicator {
     height: 8px;
-    background-color: var(--amber_700);
+    background-color: #ff9e0e;
     width: 88px;
   }
 
@@ -188,8 +178,8 @@
   }
   
   .ui.button.fill.light_blue_800 {
-    background-color: var(--light_blue_800);
-    color: var(--white_A700);
+    background-color: #1288bb;
+    color: #ffffff;
   }
   
   .ui.button {
@@ -199,13 +189,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    color: var(--white_A700);
+    color: #ffffff;
     font-size: 16px;
     font-weight: 700;
-    background-color: var(--light_blue_800);
+    background-color: #1288bb;
     flex: 1;
-    border-radius: var(--radius-xs);
-    border: 2px solid var(--white_A700);
+    border-radius: 16px;
+    border: 2px solid #ffffff;
   }
   
   /*------Heading CSS------*/
@@ -223,7 +213,7 @@
   }
   
   .ui.heading {
-    color: var(--black_900);
+    color: #000000;
     font-family: Inter;
   }
   

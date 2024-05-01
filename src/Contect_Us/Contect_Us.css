@@ -403,7 +403,7 @@
   }
   
   .ui.text {
-    color: var(--black_900_01);
+    color: black;
     font-family: Inter;
   }
   
